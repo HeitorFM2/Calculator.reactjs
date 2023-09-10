@@ -1,9 +1,9 @@
-import { InputComponent } from './styles'
+import { InputComponent } from "../../styles/input";
 
-export default function Input({value}) {
+export default function Inputs({ value }) {
   return (
     <InputComponent>
-      <input disabled value={value}/>
+      <input disabled value={value} />
     </InputComponent>
-  )
+  );
 }
